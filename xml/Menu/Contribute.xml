@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+
+    <item>
+    </item>
+-->
+
+<menu>
+  <item>
+    <!-- 
+      Override CiviCRM core path. Except for what's marked in CHANGED, everything
+      here is the same as in core.
+    -->
+    <path>civicrm/contribute/updaterecur</path>
+    <title>Update Subscription</title>
+    <page_callback>CRM_Contribute_Form_UpdateSubscription</page_callback>
+    
+    <!-- CHANGED -->
+    <!-- restrict access to users with Access CiviContribute AND Edit Contributions -->
+    <access_arguments>access CiviContribute,edit contributions</access_arguments>
+  </item>
+  <item>
+    <!-- 
+      Override CiviCRM core path. Except for what's marked in CHANGED, everything
+      here is the same as in core.
+    -->
+    <path>civicrm/contribute/unsubscribe</path>
+    <title>Cancel Subscription</title>
+    <page_callback>CRM_Contribute_Form_CancelSubscription</page_callback>
+    <!-- CHANGED -->
+    <!-- restrict access to users with Access CiviContribute AND Edit Contributions -->
+    <access_arguments>access CiviContribute,edit contributions</access_arguments>
+  </item>
+</menu>
