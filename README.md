@@ -1,4 +1,4 @@
-#Lock recurring contributions#
+# Lock recurring contributions
 
 In a nonprofit context, allowing the end user to edit and/or cancel their own recurring
 contributions is generally desirable. In a fee-for-services environment, this is
