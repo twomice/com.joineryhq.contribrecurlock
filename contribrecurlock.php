@@ -1,7 +1,7 @@
 <?php
 
 require_once 'contribrecurlock.civix.php';
-// use CRM_Contribrecurlock_ExtensionUtil as E;
+use CRM_Contribrecurlock_ExtensionUtil as E;
 
 /**
  * Implements hook_civicrm_config().
